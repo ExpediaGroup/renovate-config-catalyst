@@ -1,0 +1,9 @@
+{
+    "description": "Schedule for typical non-office hours (night time and weekends)",
+    "timezone": "America/Chicago",
+    "schedule": [
+      "after 6pm every weekday",
+      "before 6am every weekday",
+      "every weekend"
+    ]
+}

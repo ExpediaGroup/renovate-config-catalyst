@@ -1,0 +1,7 @@
+{
+    "description": "Schedule for weekends",
+    "timezone": "America/Chicago",
+    "schedule": [
+      "every weekend"
+    ]
+  }

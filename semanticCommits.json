@@ -1,0 +1,38 @@
+{
+    "description": "Configuration for enabling semantic commit messages",
+    "semanticCommits": true,
+    "packageRules": [
+      {
+        "depTypeList": [
+          "devDependencies"
+        ],
+        "rangeStrategy": "replace",
+        "semanticCommitType": "Other",
+        "commitMessageTopic": "devDependency {{depName}}"
+      },
+      {
+        "depTypeList": [
+          "dependencies"
+        ],
+        "rangeStrategy": "replace",
+        "semanticCommitType": "Fix",
+        "commitMessageTopic": "dependency {{depName}}"
+      },
+      {
+        "depTypeList": [
+          "peerDependencies"
+        ],
+        "rangeStrategy": "widen",
+        "semanticCommitType": "Fix",
+        "commitMessageTopic": "peerDependency {{depName}}"
+      },
+      {
+        "depTypeList": [
+          "optionalDependencies"
+        ],
+        "rangeStrategy": "replace",
+        "semanticCommitType": "Fix",
+        "commitMessageTopic": "optionalDependency {{depName}}"
+      }
+    ]
+  }
