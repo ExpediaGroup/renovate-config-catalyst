@@ -1,0 +1,10 @@
+{
+    "description": "Hapi.js packages",
+    "packagePatterns": [
+      "^@hapi/"
+    ],
+    "packageNames": [
+      "hapi-openapi",
+      "joi"
+    ]
+}
